@@ -1,0 +1,83 @@
+body {
+    position: fixed;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#backgraund-image {
+    width: 100%;
+    object-fit: cover;
+}
+.main-text, .btn {
+    position: absolute;
+}
+.main-text {
+    font-family: 'Charm', cursive;
+    color: #fff;
+    box-shadow: 0 0 20px 2px #931fff;
+    font-size: 7em;
+    width: 100%;
+    text-align: center;
+    top: 1.9em;
+    padding: 6px 0;
+}
+.btn-1{
+    font-family: 'Charm', cursive;
+    color: #fff;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    top: 28em;
+    border: none;
+    background-color: #931fff;
+    box-shadow: 0 0 20px 2px #fff;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/******Modal*********/
+
+.invisible {
+    display: none;
+}
+#modal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    height: 100%;
+    transition: 0.5s ease;
+}
+#invitation-image {
+    width: 60%;
+    position: absolute;
+    top:8%;
+    left:20%;
+}
+.invitation-text {
+    text-align: center;
+    position: absolute;
+    color: rgb(82, 82, 82);
+    top:22%;
+    left:25%;
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive;
+}
+.big-txt {
+    margin: 3.5em 0;
+    font-size: 3em;
+}
+.btn-2 {
+    text-align: center;
+    position: absolute;
+    color: rgb(82, 82, 82);
+    opacity: 0.7;
+    top:4%;
+    left:80%;
+    background-color: #fff;
+}
