@@ -1,0 +1,118 @@
+html, body, .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    background: #000;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4.7em;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(255,0,0,.7);
+}
+h3 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 15px;
+    letter-spacing: 0.5em;
+}
+article {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-text{
+    line-height: 38px;
+    font-size: 2em;
+    width: 80%;
+    color: gray;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-top {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.perfume-name{
+    margin-top: 50px;
+    font-size: 3em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+small {
+    color: gray;
+    font-size: 0.5em;
+    width: 100%;
+    text-align: center;
+}
+.price, .btn-outline-info, .btn-outline-danger {
+    font-size: 1.5em;
+    display: inline-block;
+}
+.disabled {
+    background-color: #fff;
+    color: red;
+}
+.disabled:hover {
+    cursor: default;
+    color: red;
+}
+.btn-outline-danger{
+    border: 1px solid red;
+}
+.id{
+    font-size: 1.3em;
+    display: inline-block;
+    float: right;
+    color: rgb(165, 165, 165);
+}
+.btn-lg {
+    background-color: #000;
+    color: #fff;
+    margin-top: 100px;
+}
+.btn-lg:hover {
+    color: red;
+}
+hr {
+    border: 0.5px solid red;
+    background-color: red;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+select {
+    width: 50px;
+    background-color: #fff;
+    color: gray;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    margin: 50px 0 0 0;
+}
+#bottom {
+    color: #fff;
+    margin-left: 20px;
+    padding-top: 6px;
+}
