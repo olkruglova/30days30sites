@@ -90,6 +90,7 @@ li {
     width: 100%;
     text-align: center;
     font-size: 3em;
+    text-transform: uppercase;
 }
 .col-md-4 {
     margin-bottom: 35px;

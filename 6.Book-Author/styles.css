@@ -1,0 +1,101 @@
+body {
+    background-color: bisque;
+    width: 100%;
+    color: rgb(51, 31, 7);
+    font-family: 'Open Sans', sans-serif;
+}
+#header {
+    background-color: rgb(94, 58, 15);
+    width:100%;
+    padding: 22px 0 15px 0;
+    text-align: center;
+}
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: bisque;
+}
+#main-content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#main-book {
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.img-main {
+    width: 100%;
+}
+.book-name {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 6px 12px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.book-name span {
+    font-size: 1.4em;
+}
+h3 {
+    padding: 6px 12px;
+    background-color: antiquewhite;
+}
+sub{
+    float: right;
+}
+sub a{
+    color: rgb(94, 58, 15);
+    font-weight: 400;
+    padding: 20px 0;
+}
+sub a:hover{
+    color: rgb(139, 105, 63);
+}
+.author-txt, .book-txt {
+    line-height: 28px;
+    padding: 12px 6px;
+    text-align: justify;
+}
+hr {
+    color: rgb(94, 58, 15);
+    background-color: rgb(94, 58, 15);
+    border: 1px solid rgb(94, 58, 15);
+    width: 100%;
+    margin-bottom: 50px;
+}
+.img-container {
+    width: 80%;
+    height: 316px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.img-main-sub{
+    width: 100%;
+}
+#best-books {
+    margin-bottom: 70px;
+}
+footer {
+        background-color: rgb(94, 58, 15);
+        width:100%;
+        padding: 22px 0 15px 0;
+        text-align: center;
+}
+footer p{
+    color: bisque;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 35px;
+}
+footer q{
+    font-size: 1.8em;
+}
+#bottom p {
+    font-size: 1em;
+}
+#bottom a {
+    color: inherit;
+}
