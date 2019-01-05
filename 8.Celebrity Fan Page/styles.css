@@ -1,0 +1,157 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#background {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.background{
+    width: 160%;
+}
+header {
+    position: absolute;
+    top: 33vh;
+    left: 15vw;
+    color: rgb(95, 65, 9);
+}
+hr {
+    color: rgb(95, 65, 9);
+    border: 2px solid rgb(95, 65, 9);
+    background-color: rgb(95, 65, 9);
+}
+h1{
+    font-size: 3em;
+    letter-spacing: 0.3em;
+}
+
+/****Main-content*****/
+
+#main-content {
+    top: 115%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 235, 205,0.7);
+}
+.row {
+    margin: 0;
+}
+.col12, .col22, .col32, .col42 {
+    background-color: rgba(255, 235, 205,0.7);
+    overflow: scroll;
+    height: 300px;
+    padding: 12px;
+}
+.col {
+    padding:36px;
+    margin: 0;
+    vertical-align: middle;
+}
+.col:hover{
+    cursor: pointer;
+}
+h2 {
+    color: rgb(95, 65, 9);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.txt {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    color: rgb(95, 65, 9);
+    font-size: 1.5em;
+}
+small{
+    color: rgb(95, 65, 9);
+}
+section a:hover {
+    color: inherit;
+}
+
+footer {
+    background-color: rgb(95, 65, 9);
+    color: rgba(255, 235, 205,0.7);
+    padding: 12px;
+    margin: 0;
+}
+.invisible {
+    display: none;
+}
+.img-gallery {
+    width:100%;
+}
+.col-md-6 {
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: inherit;
+    font-weight: 900;
+    font-family: inherit;
+}
+footer a:hover {
+    color: #fff;
+}
+
+
+
+@media screen and (min-width: 1330px) and (max-width: 1615px) {
+    h1{
+        font-size: 2.8em;
+        letter-spacing: 0.2em;
+    }
+    header {
+        top: 25vh;
+        left: 15vw;
+    }
+}
+@media screen and (min-width: 1170px) and (max-width: 1329px) {
+    h1{
+        font-size: 2.5em;
+        letter-spacing: 0.2em;
+    }
+    header {
+        top: 22vh;
+        left: 13vw;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1169px) {
+    h1{
+        font-size: 2.5em;
+        letter-spacing: 0.2em;
+    }
+    header {
+        top: 20vh;
+        left: 11vw;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 899px) {
+
+    header {
+        top: 255px;
+        left: -185px;
+        transform: rotate(-90deg);
+    }
+}
+@media screen and (max-width: 639px) {
+
+    header {
+        top: 112px;
+        left: -65px;
+        transform: rotate(-90deg);
+    }
+    h1{
+        font-size: 2em;
+        letter-spacing: 0.1em;
+    }
+}
