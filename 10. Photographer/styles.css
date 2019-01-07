@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://static1.squarespace.com/static/5458fe0ce4b03e2a539eb773/t/5b745a5ff950b79a1dbd1235/1534351992473/EK2006Nx+1-0010967.jpg);
+    background-attachment: fixed!important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.row{
+    width: 100% !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+header {
+    padding: 3em 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    position: fixed !important;
+}
+#header {
+    font-family: 'Kaushan Script', cursive !important;
+    color: #fff;
+    display: inline-block !important;
+    margin: 0 30px;
+    font-size: 2.5em;
+}
+#header:hover {
+    cursor: pointer;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    color: #fff !important;
+    font-size: 1.7em !important;
+    font-family: 'Caveat', cursive !important;
+    margin-top: 3em !important;
+    letter-spacing: 0.1em
+}
+nav .nav-item {
+    display: inline-block !important;
+    color: #fff;
+    font-family: 'Courgette', cursive !important;
+    padding: 15px !important;
+    transition: 0.3s ease;
+}
+.nav-item:hover {
+    cursor: pointer;
+}
+nav {
+    display: inline-block !important;
+}
+#nav-left {
+    margin-right: 100px;
+}
+#nav-right {
+    margin-left: 100px;
+}
+.nav-item:first-child {
+    margin-right: 50px;
+}
+
+/********article 1********************/
+
+.img-gallery {
+    width: 100%;
+}
+article {
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    position: absolute;
+    top: 171px;
+    transition: 1s ease;
+}
+.row-ins {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-6 {
+    width: 40%;
+}
+.capture{
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Caveat', cursive;
+    padding: 30px 0;
+    margin: 20px 0 40px 0;
+}
+.capture a{
+    color: black;
+}
+.capture a:hover {
+    color: inherit;
+    background-color: white;
+}
+
+/*******footer********/
+
+
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Caveat', cursive;
+    width: 100%;
+    text-align: center;
+}
+#bottom {
+    color: #fff;
+}
+#bottom a {
+    color: #fff;
+}
+#bottom a:hover{
+    color: inherit;
+}
