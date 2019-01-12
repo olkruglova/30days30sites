@@ -5,27 +5,33 @@ $('.nav-item').on('click', function() {
 $('header').on('click', function() {
     $('article').css('margin-left', '-80%');
     $('nav').removeClass('i');
+    $('#social').css('display', 'block');
 })
 $('.about-us').on('click', function() {
     $('#about-us').css('margin-left', '0');
-    $('#training, #our-team, #gallery-section').css('margin-left', '-80%');
+    $('#training, #our-team, #gallery-section, #contact').css('margin-left', '-80%');
 })
 $('.training').on('click', function() {
     $('#training').css('margin-left', '0');
-    $('#about-us, #our-team, #gallery-section').css('margin-left', '-80%');
+    $('#about-us, #our-team, #gallery-section, #contact').css('margin-left', '-80%');
 })
 $('.team').on('click', function() {
     $('#our-team').css('margin-left', '0');
-    $('#about-us, #training, #gallery-section').css('margin-left', '-80%');
+    $('#about-us, #training, #gallery-section, #contact').css('margin-left', '-80%');
 })
 $('.gallery').on('click', function() {
     $('#gallery-section').css('margin-left', '0');
-    $('#about-us, #training, #our-team').css('margin-left', '-80%');
+    $('#about-us, #training, #our-team, #contact').css('margin-left', '-80%');
+})
+$('.contact').on('click', function() {
+    $('#contact').css('margin-left', '0');
+    $('#about-us, #training, #our-team, #gallery-section').css('margin-left', '-80%');
+    $('#social').css('display', 'block').css('margin-top', '53%');
 })
 
 $(function() {
     var theImage = $('ul#gallery li img');
-    var theWidth = theImage.width();
+    var theWidth = theImage.width()*1.1;
     //wrap into mother div
     $('ul#gallery').wrap('<div id="mother" />');
     //assign height width and overflow hidden to mother
@@ -34,7 +40,7 @@ $(function() {
         return theWidth;
       },
       height: function() {
-        return theImage.height();
+        return theImage.height()*1.1;
       },
       position: 'relative',
       overflow: 'hidden',
